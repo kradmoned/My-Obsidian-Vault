@@ -1,0 +1,15 @@
+- Scope resolution operator `::`  
+	- `Pencil::functionOfClassPencil(){body of function}
+		
+- Constructor Writing way
+	- `Pencil::Pencil(string Color) : memberOfPencilToBeAssigned(assignedValue){Body of function}`
+- NameSpace is not folder like java
+ - Aceess Modifiers
+ - Multiple Level Inheritance
+ - What is public inheritance and private inheritance
+- Diamond Problem the heck is this
+	- Related to one child having multiple parents
+- Use of `Virtual` Keyword
+	- Pure [Virtual]()?
+	- 
+- No abstract Keyword In C++?
