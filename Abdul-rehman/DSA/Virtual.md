@@ -1,6 +1,5 @@
 Of course, here is a concise markdown note on the C++ `virtual` keyword.
 
-```markdown
 # C++ `virtual` Keyword: A Concise Guide
 
 The `virtual` keyword in C++ enables **runtime polymorphism** (also called dynamic binding or late binding). It allows a program to decide at runtime which function to call based on the actual type of an object, rather than the type of the pointer or reference used to access it.
@@ -88,4 +87,3 @@ public:
 | `override` specifier   | `@Override` annotation       |
 | Non-`virtual` method   | `final` method (roughly)     |
 
-```
