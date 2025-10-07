@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/DSA Lecture 6.md",
+                "file": "OOAD/OOAD Lecture 6.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSA Lecture 6"
+              "title": "OOAD Lecture 6"
             }
           },
           {
@@ -296,32 +296,34 @@
   },
   "active": "d252ec4a0231dc3c",
   "lastOpenFiles": [
+    "OOAD/OOAD Lecture 6.md",
+    "OOAD/OOAD Lecture 6.md",
+    "COAL LECTURE 5.md",
+    "DSA date algorithm.md",
+    "Welcome.md",
+    "COAL LECTURE 2.md",
+    "COAL.md",
+    "DSA/DSA lecture 4.md",
+    "DSA/DSA lecture 3 AI.md",
+    "DSA/DSA lecture 3.md",
+    "DSA/DSA lecture 4 AI.md",
+    "DSA/DSA Lecture 6.md",
     "CCE/CCE LEECTURE 3.md",
     "CCE/CCE LECTURE 2.md",
     "DSA/Virtual.md",
-    "DSA/DSA Lecture 6.md",
     "OOAD/OOAD Lecture 5.md",
     "CCE/Relation with Citizenship and democracy.md",
-    "COAL LECTURE 5.md",
-    "DSA date algorithm.md",
     "OOAD/OOAD lecture 3.md",
     "COAL Lecture 3.md",
-    "DSA/DSA lecture 4 AI.md",
-    "COAL LECTURE 2.md",
-    "DSA/DSA lecture 4.md",
     "OOAD/OOAD Lecture 2.md",
-    "COAL.md",
     "CCE",
     "Untistled.md",
     "DSA/DSA lecture 1.md",
     "DSA/DSA Lecture 2 Ai.md",
     "DSA/DSA Lecture 2.md",
-    "DSA/DSA lecture 3 AI.md",
-    "DSA/DSA lecture 3.md",
     "Untitled",
     "OOAD",
     "DSA",
-    "C++",
-    "Welcome.md"
+    "C++"
   ]
 }
