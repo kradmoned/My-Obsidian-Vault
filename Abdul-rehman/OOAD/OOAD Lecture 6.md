@@ -1,9 +1,9 @@
 
 # Problem Solving Model
-
+-- -
 ##  Traditional Life Cycle/Water Fall 
 Waterfall is an organized way of solving problem. Its called a life cycle as a projector will go through all stages of it.
-Its a sequential process not an iterative, spiral or cyclic. Sequential mean one task end and another one starts.
+Its a sequential process not an iterative, spiral or cyclic. Sequential mean one task ends and another one starts.
 
 ### Why its called Waterfall life cycle?
 There are many alternates of waterfall cycle.
@@ -15,6 +15,9 @@ How a fish cant go back stream. So if we go in the direction of waterfall. its e
 - You can show your progress through the project.
 - It is  a structured Approach.
 - Have specialized people only for the stage working that stage.
+	- Thus no need to hire those people when doing the other stage.
+- Manage projects with high levels of risk.
+
 ### The bad
 - Take more time
 - Cant go to previous stage.
@@ -44,5 +47,51 @@ How a fish cant go back stream. So if we go in the direction of waterfall. its e
 5. #### Testing
 6. #### Installation
 7. #### Maintenance
-8. 
 
+### Problem With TLC
+- It is not directly applicable, need to modify it a bit
+- Iteration are aalmost inevitable
+- Produc is not created till the end of work , so  s  viewable prototype cant be created earlier
+- The design cant be changed due to outside issues during project
+	- For example applying a new law.
+### TLC with iteration
+-- -
+## Prototyping Life Cycle
+> [!note] What does a prototype mean?
+> Anything that is not the real product but does the work of the real thing is a prototype. You then use that prototype to determine what the user wants and to get feedback.
+>
+> It is *not* the *real* product. The prototype is discarded once the real thing is delivered. A prototype is important for requirement **Elicitation**. Allows us to know what the requirements are better
+> 
+### The Cycle
+**Initial Analysis** → **Define Objectives** → **(Specify ⇄ Construct ⇄ Evaluate) Cycle** → **Prototyping Complete**
+
+
+### Pro
+- IF prototype fails we can just throw it away and get on a new prototype saving time
+- Early demonstration of system functionality
+- It allows us to get a better understanding of what the user want.
+	- For example as the user gets experience with prototype he will give us feedback , what additional things he want , what he likes and dislikes. That can be used to create the final product.
+- Feasability and usability can be tested even if protoype is incomplete
+
+
+
+### Cons
+- Waste of time.
+-  Risk of scope creep.
+- User tries to find the prototype in the finalized system.
+- Requires too much interaction or feedback from user so the user must be present
+- May divert attention to interfance instead of functions
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+-- -
