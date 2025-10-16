@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OOAD/OOAD Lecture 6.md",
+                "file": "COAL LECTURE 9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OOAD Lecture 6"
+              "title": "COAL LECTURE 9"
             }
           }
         ],
@@ -212,13 +212,16 @@
   },
   "active": "ed7d86056afb9f10",
   "lastOpenFiles": [
-    "OOAD/OOAD Lecture 7.md",
+    "COAL LECTURE 8.md",
+    "COAL LECTURE 9.md",
     "Coal Lecture 7.md",
+    "Untitled.base",
+    "OOAD/OOAD Lecture 6.md",
+    "OOAD/OOAD Lecture 7.md",
     "DSA/DSA lecture 3 AI.md",
     "DSA/DSA Lecture 2 Ai.md",
     "COAL LECTURE 5.md",
     "Coal Lecture 6 AI.md",
-    "OOAD/OOAD Lecture 6.md",
     "OOAD/OOAD Lecture 2.md",
     "OOAD/OOAD lecture 3.md",
     "OOAD/OOAD Lecture 5.md",
@@ -236,8 +239,6 @@
     "DSA date algorithm.md",
     "COAL LECTURE 2.md",
     "COAL.md",
-    "DSA/DSA lecture 3.md",
-    "DSA/DSA lecture 4 AI.md",
     "CCE",
     "Untitled",
     "OOAD",
