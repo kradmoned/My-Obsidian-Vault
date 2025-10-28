@@ -1,6 +1,7 @@
 {
-  "cssTheme": "Catppuccin",
+  "cssTheme": "Kakano",
   "enabledCssSnippets": [
     "transparency"
-  ]
+  ],
+  "accentColor": "#1b1309"
 }
