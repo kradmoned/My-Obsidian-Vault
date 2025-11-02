@@ -45,8 +45,17 @@ Since doucmentaion maybe very diffficult from practical things such as how to do
 # Observation
 Just go sit and observe how the current system is working.
 The con is that when we are doing observation that person will get annoyed.
-# Document Sampling
-Gather sample documents. What the fuck it means?
 
-# Questionaires
-When we cant meet our users personally or too many people to meet , or the interview too big or precise info needed then we give questionares
+## Advantages
+- U see it with ur eyes how it works
+- U know for 100% that what u see i true
+- Verify what other says
+## Disadvantages
+- People dobt like being observed
+- Require skill and training
+- Logistical challenges as you will need to go and observe it. So u will need to travel plan a stay etc
+- Ethical problem with personal data
+	- You will see clients data
+## Apropriate situatio 
+- To verify
+JJNMJK
