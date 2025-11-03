@@ -1,3 +1,6 @@
+# what is a model
+A model is a view of system. It acts like an abstractions of  the physical system with a certain purpose . This puprose determined what we want to include in the model or what to not include. Thus increasing or decreasing detail as we like.
+
 # Why We Model?
 > [!note] We can't understand a thing, till we have modeled it.
 
@@ -16,7 +19,18 @@
 - If no consideration is given to architecture , process or the tools the thing that we will build will just collapse on itself.
 
 # Aim of Modeling
+- system ko visualize karsakte hai
+- document the decision
+- permit us to specify the structure of system
 
 # Use of Models
+- divide the problem into small 
+
+# Principle of modelling
+-  The model determines how a solution is made
+- Each model has different level of details
+- Best model are closer to life
+- Create multiple models
+- 
 
 
