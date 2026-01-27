@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DCCN/DCCN.md",
+                "file": "Analysis of Algorithm Lecture 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DCCN"
+              "title": "Analysis of Algorithm Lecture 1"
             }
           }
         ]
@@ -173,8 +173,9 @@
   },
   "active": "7453e3aeb3c1074a",
   "lastOpenFiles": [
-    "DCCN",
     "DCCN/DCCN.md",
+    "Analysis of Algorithm Lecture 1.md",
+    "DCCN",
     "Untitled.md",
     "OOAD/Types of Requirements.md",
     "OOAD/Fact Finding Techniques.md",
