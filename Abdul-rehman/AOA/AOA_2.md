@@ -27,3 +27,18 @@ Lecture 2
 
 - Might not halt on all input or maybe some input
 - It might halt with an answer other than the correct one
+
+# Symmetric and Assymetric Encryption
+
+Symmetric requires n\*(n-1)/2 for n users
+
+# GNUPG
+
+# Topologies
+
+star . bus . ring is used in LAN
+Mesh is used wan
+
+# NUD Composition assignment
+
+Yaar ye khud dekh lena
