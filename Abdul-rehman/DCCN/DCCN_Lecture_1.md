@@ -52,7 +52,7 @@ A -> **Availability** -> Whenever you need a resource that resource is available
 
 - A new packet is crafted with false source Address
 
-# Authentication vs Authorization
+# Authentication vs AuthorizationIslamabad
 
 - Authentication is basically the validation of credentials/
 - Authorization is basically what level of accessibility you have.
@@ -90,8 +90,71 @@ A -> **Availability** -> Whenever you need a resource that resource is available
   - We are counting Numbers of ones
     - Even Parity Check and ODD parity Check
 - Two Dimensional Parity Check
+  - We check for parity both in rows and columns
+  - The last row contains the parity bit of a specific columns
+  - A question since the last row is for column partiy what does its row parity bit show, or last bit column parity or row partiy
 - Check Sum
+  -Check sum is noting but addition and wrap around(It is simply the most significant carry added to result)?
+  - First step is simply binary addition
+  - The other is a wrap around of the carry?
+  - Checksum is commonly used in transport layer integrity
 - Cyclic Redundancy Check (CRC)
+  -It is commonly used in layer 2 data link layer.
+  - IT is used for error Detection
+  - It has two things crc checker , crc generator and works on the principle of binary Division
+  - [CRC Onlince reading](https://www.sunshine2k.de/articles/coding/crc/understanding_crc.html)
+  - Calculate CRC of data - 100100 with divisor 1101
+
+# Error Detection vs Error Correction
+
+- Error Corrections
+  - It is computationaly cost and time inefective
+  - What algorithms exists for error corrections?
+
+---
+
+# Check SUm from geeks for geeks
+
+Here is the content you provided, preserved as requested and organized into a clean Markdown format.
+A **Checksum** is an error detection method used by upper-layer protocols. It is considered to be more reliable than Longitudinal Redundancy Check (LRC), Vertical Redundancy Check (VRC), and Cyclic Redundancy Check (CRC).
+
+- **Sender Side:** This method uses a **Checksum Generator**.
+- **Receiver Side:** A **Checksum Checker** is used.
+- **Integrity Verification:** The checksum is a unique number generated from the data to verify its integrity. If the two checksums match, the data is likely error-free.
+
+---
+
+## How Checksum Works?
+
+Checksum works by summing all data segments using **1’s complement arithmetic**, taking the complement of the result, appending it to the data, and verifying at the receiver by checking if the final complemented sum (including checksum) equals zero.
+
+### Sender Side
+
+- **Data Division:** The data is divided into equal-sized subunits of bits (commonly 16 bits).
+- **Addition Using 1’s Complement:** All the subunits are added together using 1’s complement arithmetic. If a carry is generated beyond the most significant bit, it is wrapped around and added to the least significant bit.
+- **Checksum Calculation:** The final sum is then complemented (1’s complement). This result is known as the checksum.
+- **Transmission:** The original data along with the checksum is transmitted to the receiver as a single unit.
+
+### Receiver Side
+
+- **Receiving Data and Checksum:** The receiver gets the combined block of original data and checksum.
+- **Data Division:** The received block is divided into subunits of bits, same as at the sender side.
+- **Addition Using 1’s Complement:** All subunits, including the checksum, are added together using 1’s complement addition with end-around carry.
+- **Final Complement and Validation:** The result of the sum is complemented. If the final result is all zeros, the data is considered to be error-free.
+- **Error Detection:** If the result is non-zero, it indicates that an error has occurred during transmission, and the receiver rejects the data.
+
+---
+
+## Factors for Inconsistent Checksum Number
+
+Whenever checksum values don't match, it seems that some disturbance happened in the data during transmission. Several factors which can create disturbance are mentioned below:
+
+- **Interruption in the network connection** can create inconsistent checksum numbers.
+- **Issue in the storage space or hard drives** can also lead to problems in checksum.
+- **Corrupted Disk and Corrupted File** can lead to errors in Checksum.
+- **Third-party interference** while transferring the data can also lead to checksum errors.
+
+--
 
 # Self Assessment and - task
 
