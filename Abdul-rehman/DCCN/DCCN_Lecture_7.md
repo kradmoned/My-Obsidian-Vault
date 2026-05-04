@@ -38,6 +38,12 @@
 
 # Multiplexing and Demultiplexing
 
+# Socket
+
+- Gateway betwen transport and application layer
+- Socket is created in transpoer layer
+-
+
 ## Connection Oriented
 
 - in connection oriented one socket one process communicate with only one other process

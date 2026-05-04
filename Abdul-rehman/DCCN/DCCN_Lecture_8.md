@@ -75,3 +75,24 @@
 - What should be the optimal sequence number and window size ratio
   - THe sequence number should be double the size of window
 - Sequence is only for identification, it has nothing to do with the content of the packet,
+
+# How should the timeout interval be calculated
+
+# Is timeout same as rtt?
+
+# What is sample rtt and estimated rtt?
+
+# TCP round trip time, timeout
+
+- `estimatedrtt = (1-alpha)*ExtimatedRtt + alpha*SampleRTT`
+- During first time iteration estimated rtt is the actual rtt
+- typical value `a = 0.125`
+- DEV rtt = `(1-B)\*
+- If we keep devrtt as 0, the timeout interval will be similar to the first estimated rtt
+  - In the next iteration if the sample rtt is 15 ms which is greater than the timeout interval, what should happen now?
+- TIme out interval for every iteration varies
+- Wha`t should be valuemof dev rtt for first iteration
+
+# tcp segment
+
+-
